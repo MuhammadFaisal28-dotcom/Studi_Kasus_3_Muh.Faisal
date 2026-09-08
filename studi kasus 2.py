@@ -32,7 +32,7 @@ while True:
             print("judul buku yang di masukkan tidak tersedia")
 
     elif pilihan_buku == "2":
-        if pinjaman == 0:
+        if pinjaman == []:
             print("belum ada buku yang anda pinjam")
         else:
             judul = input("masukkan judul buku yang ingin di hapus: ")    
